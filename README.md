@@ -22,7 +22,7 @@ The main objective of this study is to investigate the viability of using blockc
   
 ### Project Modules
 
-* [Gateway](https://github.com/divios/AirAnchor-Keeper): The Gateway module serves as the interface for handling UAV data and interactions with the blockchain. It receives data from UAVs, processes it, and forwards it to the relevant components for storage and validation. It also manages the communication between the UAVs and the blockchain network.
+* [Gateway](https://github.com/divios/AirAnchor-Gateway): The Gateway module serves as the interface for handling UAV data and interactions with the blockchain. It receives data from UAVs, processes it, and forwards it to the relevant components for storage and validation. It also manages the communication between the UAVs and the blockchain network.
 * [DronApi](https://github.com/divios/AirAnchor-API): DronApi is a critical component that provides the necessary APIs and endpoints for the UAVs to interact with the system. It enables UAVs to send data and receive instructions from the blockchain network. The DronApi module acts as the primary communication channel for the UAVs.
 * [CA](https://github.com/divios/AirAnchor-CA): The Certificate Authority module is responsible for managing security certificates for the UAVs and other network entities. It ensures secure communication and authentication between the UAVs and the blockchain network, enhancing the overall security of the system.
 * [Keeper](https://github.com/divios/AirAnchor-Keeper): The Keeper module is responsible for listening for events of validated transactions in the ledger and sending notifications to the gateway.
